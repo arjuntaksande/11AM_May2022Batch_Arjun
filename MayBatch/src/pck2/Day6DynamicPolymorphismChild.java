@@ -9,10 +9,17 @@ public class Day6DynamicPolymorphismChild extends Day6DynamicPolymorphismParent
 		c = a+b;
 		System.out.println("Result is : "+c);
 	}
+	public void arithmetic(double d, double e) {
+		double c;
+		c = d+e;
+		System.out.println("Result is : "+c);
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Day6DynamicPolymorphismChild obj = new Day6DynamicPolymorphismChild();
 		obj.arithmetic(12,2);
+		obj.arithmetic(10.5, 20.5);
+		System.out.println("To Check Changes done in local");
 	}
 
 }
