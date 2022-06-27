@@ -13,15 +13,15 @@ public class Day6Assignment2Parent {
 	 *	child 3 parameterized method
 	 */
 		public void m1() {
-			//this.m1(57,75,85);
+			this.m1(57,75,85);
 			System.out.println("parent default method");
 		}
 		public void m1(int a) {
-			//this.m1();
+			this.m1();
 			System.out.println("parent 1 parameterized method");
 		}
 		public void m1(int a,int b) {
-			//this.m1(23);
+			this.m1(23);
 			System.out.println("parent 2 parameterized method");
 		}
 		public void m1(int a,int b,int c) {
